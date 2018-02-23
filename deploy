@@ -1,6 +1,6 @@
 #!/bin/sh      
 ssh kengseng@172.17.0.228       
- cd /home/kengseng/HelloWorld  
+ cd ./HelloWorld  
  git pull origin master       
  npm install --production       
  pm2 restart all
