@@ -1,8 +1,8 @@
 #!/bin/sh      
 ssh root@172.17.0.228       
  cd /root/HelloWorld  
- git pull       
- npm install --production       
- pm2 restart all
+ sudo git pull       
+ sudo npm install --production       
+ sudo pm2 restart all
  exit
  
