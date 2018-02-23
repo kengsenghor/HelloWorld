@@ -1,7 +1,7 @@
 #!/bin/sh      
 ssh kengseng@172.17.0.228       
  cd /home/kengseng/HelloWorld  
- git pull       
+ git pull master master       
  npm install --production       
  pm2 restart all
  exit
