@@ -1,6 +1,6 @@
 #!/bin/sh      
-ssh jenkins@172.17.0.228       
- cd /root/HelloWorld  
+ssh kengseng@172.17.0.228       
+ cd /home/kengseng/HelloWorld  
  git pull       
  npm install --production       
  pm2 restart all
