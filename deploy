@@ -1,6 +1,6 @@
 #!/bin/sh      
 
-ssh kengseng@172.17.0.228       
+ssh -T -o StrictHostKeyChecking=no kengseng@172.17.0.228       
 cd /var/lib/jenkins/users/kengseng/HelloWorld  
 git pull origin master       
 npm install --production       
