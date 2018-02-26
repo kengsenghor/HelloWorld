@@ -1,6 +1,10 @@
 #!/bin/sh      
 ssh kengseng@172.17.0.228       
+<<<<<<< HEAD
  cd /var/lib/jenkins/users/kengseng/HelloWorld  
+=======
+ cd ./HelloWorld 
+>>>>>>> 35e25e1fd9e7996b52764cc28f446b44e64e0e47
  git pull origin master       
  npm install --production       
  pm2 restart all
